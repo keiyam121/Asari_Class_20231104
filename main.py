@@ -45,23 +45,7 @@ class Net(pl.LightningModule):
         return h
 
 net = Net().cpu().eval()
-
-# Google Driveから学習済みモデルをダウンロードするエンドポイント
-@app.get("/download_model")
-async def download_model():
-    # Google Driveのファイル共有リンクを直接指定してダウンロード
-    url = "https://drive.google.com/uc?export=download&id=1U5aFnZtSxT8bDLpxYmekOq_aenM8vMAz"
-    response = requests.get(url)
-
-    # ファイルを保存
-    with open("Assari_classification_remBG_Augummentation.pt", "wb") as f:
-        f.write(response.content)
-
-    # PyTorchでモデルを読み込む
-    #model = torch.load("Asari_Classification.pt")
-    net.load_state_dict(torch.load('Assari_classification_remBG_Augummentation.pt', map_location=torch.device('cpu')))
-    return {"message": "モデルをダウンロードして読み込みました。"}
-
+net.load_state_dict(torch.load('Assari_classification_remBG_Augummentation.pt', map_location=torch.device('cpu')))
 
 @app.post('/predict')
 async def make_predictions(file: UploadFile = File(...)):
