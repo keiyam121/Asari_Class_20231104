@@ -54,7 +54,7 @@ async def download_model():
     response = requests.get(url)
 
     # ファイルを保存
-    with open("Assari_classification_remBG_Augummentation.ptJ", "wb") as f:
+    with open("Assari_classification_remBG_Augummentation.pt", "wb") as f:
         f.write(response.content)
 
     # PyTorchでモデルを読み込む
