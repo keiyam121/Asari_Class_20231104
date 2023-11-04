@@ -1,4 +1,4 @@
-﻿absl-py==1.4.0
+absl-py==1.4.0
 aiohttp==3.8.5
 aioice==0.9.0
 aiortc==1.5.0
@@ -103,6 +103,12 @@ streamlit==1.26.0
 streamlit-webrtc==0.47.1
 sympy==1.12
 tenacity==8.2.3
+tensorboard==2.13.0
+tensorboard-data-server==0.7.1
+tensorflow==2.13.0
+tensorflow-estimator==2.13.0
+tensorflow-intel==2.13.0
+tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
 threadpoolctl==3.2.0
 toml==0.10.2
