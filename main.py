@@ -45,7 +45,7 @@ class Net(pl.LightningModule):
         return h
 
 net = Net().cpu().eval()
-net.load_state_dict(torch.load('Assari_classification_remBG_Augummentation.pt', map_location=torch.device('cpu')))
+net.load_state_dict(torch.load('Assari_classification_rembg.pt', map_location=torch.device('cpu')))
 
 
 @app.post('/predict')
