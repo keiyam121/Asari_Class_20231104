@@ -1,0 +1,539 @@
+November 4, 2023 at 4:24 PMFailed
+Ran out of memory (used over 512MB) while running your code.
+a0c059eUpdate main.py
+
+
+
+Nov 4 04:25:02 PM  ==> Cloning from https://github.com/keiyam121/Asari_Class_20231104...
+Nov 4 04:25:03 PM  ==> Checking out commit a0c059e98e2db5e91816275d95de17bbe6c17633 in branch main
+Nov 4 04:25:05 PM  ==> Using Node version 14.17.0 (default)
+Nov 4 04:25:05 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Nov 4 04:25:15 PM  ==> Using Python version 3.11.1 via environment variable PYTHON_VERSION
+Nov 4 04:25:15 PM  ==> Docs on specifying a Python version: https://render.com/docs/python-version
+Nov 4 04:25:19 PM  ==> Using Poetry version 1.1.14 (default)
+Nov 4 04:25:19 PM  ==> Docs on specifying a Poetry version: https://render.com/docs/poetry-version
+Nov 4 04:25:19 PM  ==> Running build command 'pip install -r requirements.txt'...
+Nov 4 04:25:20 PM  Collecting absl-py==1.4.0
+Nov 4 04:25:20 PM    Downloading absl_py-1.4.0-py3-none-any.whl (126 kB)
+Nov 4 04:25:20 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.5/126.5 kB 5.5 MB/s eta 0:00:00
+Nov 4 04:25:20 PM  Collecting aiohttp==3.8.5
+Nov 4 04:25:20 PM    Downloading aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Nov 4 04:25:20 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 22.2 MB/s eta 0:00:00
+Nov 4 04:25:20 PM  Collecting aioice==0.9.0
+Nov 4 04:25:20 PM    Downloading aioice-0.9.0-py3-none-any.whl (24 kB)
+Nov 4 04:25:20 PM  Collecting aiortc==1.5.0
+Nov 4 04:25:20 PM    Downloading aiortc-1.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.9 MB)
+Nov 4 04:25:20 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 60.4 MB/s eta 0:00:00
+Nov 4 04:25:20 PM  Collecting aiosignal==1.3.1
+Nov 4 04:25:20 PM    Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Nov 4 04:25:20 PM  Collecting altair==5.0.1
+Nov 4 04:25:20 PM    Downloading altair-5.0.1-py3-none-any.whl (471 kB)
+Nov 4 04:25:20 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 471.5/471.5 kB 63.7 MB/s eta 0:00:00
+Nov 4 04:25:20 PM  Collecting annotated-types==0.5.0
+Nov 4 04:25:20 PM    Downloading annotated_types-0.5.0-py3-none-any.whl (11 kB)
+Nov 4 04:25:20 PM  Collecting anyio==3.7.1
+Nov 4 04:25:20 PM    Downloading anyio-3.7.1-py3-none-any.whl (80 kB)
+Nov 4 04:25:20 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.9/80.9 kB 19.2 MB/s eta 0:00:00
+Nov 4 04:25:20 PM  Collecting astunparse==1.6.3
+Nov 4 04:25:20 PM    Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Nov 4 04:25:20 PM  Collecting async-timeout==4.0.3
+Nov 4 04:25:21 PM    Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Nov 4 04:25:21 PM  Collecting attrs==23.1.0
+Nov 4 04:25:21 PM    Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+Nov 4 04:25:21 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 13.7 MB/s eta 0:00:00
+Nov 4 04:25:21 PM  Collecting av==10.0.0
+Nov 4 04:25:21 PM    Downloading av-10.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (31.2 MB)
+Nov 4 04:25:21 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 31.2/31.2 MB 53.3 MB/s eta 0:00:00
+Nov 4 04:25:21 PM  Collecting beartype==0.16.3
+Nov 4 04:25:21 PM    Downloading beartype-0.16.3-py3-none-any.whl (816 kB)
+Nov 4 04:25:21 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 817.0/817.0 kB 80.5 MB/s eta 0:00:00
+Nov 4 04:25:21 PM  Collecting blinker==1.6.2
+Nov 4 04:25:21 PM    Downloading blinker-1.6.2-py3-none-any.whl (13 kB)
+Nov 4 04:25:21 PM  Collecting cachetools==5.3.1
+Nov 4 04:25:21 PM    Downloading cachetools-5.3.1-py3-none-any.whl (9.3 kB)
+Nov 4 04:25:21 PM  Collecting certifi==2023.7.22
+Nov 4 04:25:21 PM    Downloading certifi-2023.7.22-py3-none-any.whl (158 kB)
+Nov 4 04:25:21 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 158.3/158.3 kB 32.5 MB/s eta 0:00:00
+Nov 4 04:25:21 PM  Collecting cffi==1.16.0
+Nov 4 04:25:21 PM    Downloading cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (464 kB)
+Nov 4 04:25:21 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 464.8/464.8 kB 60.3 MB/s eta 0:00:00
+Nov 4 04:25:21 PM  Collecting charset-normalizer==3.2.0
+Nov 4 04:25:21 PM    Downloading charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+Nov 4 04:25:21 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.6/199.6 kB 32.3 MB/s eta 0:00:00
+Nov 4 04:25:21 PM  Collecting click==8.1.6
+Nov 4 04:25:22 PM    Downloading click-8.1.6-py3-none-any.whl (97 kB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB 21.1 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting colorama==0.4.6
+Nov 4 04:25:22 PM    Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Nov 4 04:25:22 PM  Collecting cryptography==41.0.4
+Nov 4 04:25:22 PM    Downloading cryptography-41.0.4-cp37-abi3-manylinux_2_28_x86_64.whl (4.4 MB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 100.4 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting customtkinter==5.2.1
+Nov 4 04:25:22 PM    Downloading customtkinter-5.2.1-py3-none-any.whl (295 kB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 296.0/296.0 kB 45.1 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting darkdetect==0.8.0
+Nov 4 04:25:22 PM    Downloading darkdetect-0.8.0-py3-none-any.whl (9.0 kB)
+Nov 4 04:25:22 PM  Collecting dnspython==2.4.2
+Nov 4 04:25:22 PM    Downloading dnspython-2.4.2-py3-none-any.whl (300 kB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 300.4/300.4 kB 50.9 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting fastapi==0.101.1
+Nov 4 04:25:22 PM    Downloading fastapi-0.101.1-py3-none-any.whl (65 kB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.8/65.8 kB 14.1 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting filelock==3.12.4
+Nov 4 04:25:22 PM    Downloading filelock-3.12.4-py3-none-any.whl (11 kB)
+Nov 4 04:25:22 PM  Collecting flatbuffers==23.5.26
+Nov 4 04:25:22 PM    Downloading flatbuffers-23.5.26-py2.py3-none-any.whl (26 kB)
+Nov 4 04:25:22 PM  Collecting frozenlist==1.4.0
+Nov 4 04:25:22 PM    Downloading frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (250 kB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 250.5/250.5 kB 44.4 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting fsspec==2023.9.1
+Nov 4 04:25:22 PM    Downloading fsspec-2023.9.1-py3-none-any.whl (173 kB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 173.4/173.4 kB 35.8 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting gast==0.4.0
+Nov 4 04:25:22 PM    Downloading gast-0.4.0-py3-none-any.whl (9.8 kB)
+Nov 4 04:25:22 PM  Collecting gitdb==4.0.10
+Nov 4 04:25:22 PM    Downloading gitdb-4.0.10-py3-none-any.whl (62 kB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 15.6 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting GitPython==3.1.32
+Nov 4 04:25:22 PM    Downloading GitPython-3.1.32-py3-none-any.whl (188 kB)
+Nov 4 04:25:22 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.5/188.5 kB 32.8 MB/s eta 0:00:00
+Nov 4 04:25:22 PM  Collecting google-api-core==2.12.0
+Nov 4 04:25:22 PM    Downloading google_api_core-2.12.0-py3-none-any.whl (121 kB)
+Nov 4 04:25:23 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.4/121.4 kB 28.2 MB/s eta 0:00:00
+Nov 4 04:25:23 PM  Collecting google-api-python-client==2.105.0
+Nov 4 04:25:23 PM    Downloading google_api_python_client-2.105.0-py2.py3-none-any.whl (12.6 MB)
+Nov 4 04:25:23 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 97.9 MB/s eta 0:00:00
+Nov 4 04:25:23 PM  Collecting google-auth==2.22.0
+Nov 4 04:25:23 PM    Downloading google_auth-2.22.0-py2.py3-none-any.whl (181 kB)
+Nov 4 04:25:23 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.8/181.8 kB 36.0 MB/s eta 0:00:00
+Nov 4 04:25:23 PM  Collecting google-auth-httplib2==0.1.1
+Nov 4 04:25:23 PM    Downloading google_auth_httplib2-0.1.1-py2.py3-none-any.whl (9.3 kB)
+Nov 4 04:25:23 PM  Collecting google-auth-oauthlib==1.1.0
+Nov 4 04:25:23 PM    Downloading google_auth_oauthlib-1.1.0-py2.py3-none-any.whl (19 kB)
+Nov 4 04:25:23 PM  Collecting google-crc32c==1.5.0
+Nov 4 04:25:23 PM    Downloading google_crc32c-1.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (32 kB)
+Nov 4 04:25:23 PM  Collecting google-pasta==0.2.0
+Nov 4 04:25:23 PM    Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Nov 4 04:25:23 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 kB 13.8 MB/s eta 0:00:00
+Nov 4 04:25:23 PM  Collecting googleapis-common-protos==1.61.0
+Nov 4 04:25:23 PM    Downloading googleapis_common_protos-1.61.0-py2.py3-none-any.whl (230 kB)
+Nov 4 04:25:23 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 230.9/230.9 kB 38.4 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting grpcio==1.58.0
+Nov 4 04:25:24 PM    Downloading grpcio-1.58.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.3 MB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 49.8 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting h11==0.14.0
+Nov 4 04:25:24 PM    Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 12.7 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting h5py==3.9.0
+Nov 4 04:25:24 PM    Downloading h5py-3.9.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.8 MB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 107.4 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting httplib2==0.22.0
+Nov 4 04:25:24 PM    Downloading httplib2-0.22.0-py3-none-any.whl (96 kB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.9/96.9 kB 22.7 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting idna==3.4
+Nov 4 04:25:24 PM    Downloading idna-3.4-py3-none-any.whl (61 kB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 14.6 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting ifaddr==0.2.0
+Nov 4 04:25:24 PM    Downloading ifaddr-0.2.0-py3-none-any.whl (12 kB)
+Nov 4 04:25:24 PM  Collecting importlib-metadata==6.8.0
+Nov 4 04:25:24 PM    Downloading importlib_metadata-6.8.0-py3-none-any.whl (22 kB)
+Nov 4 04:25:24 PM  Collecting Jinja2==3.1.2
+Nov 4 04:25:24 PM    Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 kB 28.5 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting joblib==1.3.2
+Nov 4 04:25:24 PM    Downloading joblib-1.3.2-py3-none-any.whl (302 kB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 302.2/302.2 kB 50.0 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting jsonschema==4.19.0
+Nov 4 04:25:24 PM    Downloading jsonschema-4.19.0-py3-none-any.whl (83 kB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.4/83.4 kB 18.8 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting jsonschema-specifications==2023.7.1
+Nov 4 04:25:24 PM    Downloading jsonschema_specifications-2023.7.1-py3-none-any.whl (17 kB)
+Nov 4 04:25:24 PM  Collecting keras==2.13.1
+Nov 4 04:25:24 PM    Downloading keras-2.13.1-py3-none-any.whl (1.7 MB)
+Nov 4 04:25:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 97.3 MB/s eta 0:00:00
+Nov 4 04:25:24 PM  Collecting libclang==16.0.6
+Nov 4 04:25:24 PM    Downloading libclang-16.0.6-py2.py3-none-manylinux2010_x86_64.whl (22.9 MB)
+Nov 4 04:25:25 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 22.9/22.9 MB 71.9 MB/s eta 0:00:00
+Nov 4 04:25:25 PM  Collecting lightning-utilities==0.9.0
+Nov 4 04:25:25 PM    Downloading lightning_utilities-0.9.0-py3-none-any.whl (23 kB)
+Nov 4 04:25:25 PM  Collecting Markdown==3.4.4
+Nov 4 04:25:25 PM    Downloading Markdown-3.4.4-py3-none-any.whl (94 kB)
+Nov 4 04:25:25 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.2/94.2 kB 22.6 MB/s eta 0:00:00
+Nov 4 04:25:25 PM  Collecting markdown-it-py==3.0.0
+Nov 4 04:25:25 PM    Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Nov 4 04:25:25 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 21.4 MB/s eta 0:00:00
+Nov 4 04:25:25 PM  Collecting MarkupSafe==2.1.3
+Nov 4 04:25:25 PM    Downloading MarkupSafe-2.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (28 kB)
+Nov 4 04:25:25 PM  Collecting mdurl==0.1.2
+Nov 4 04:25:25 PM    Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Nov 4 04:25:25 PM  Collecting mpmath==1.3.0
+Nov 4 04:25:25 PM    Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+Nov 4 04:25:25 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 64.1 MB/s eta 0:00:00
+Nov 4 04:25:25 PM  Collecting multidict==6.0.4
+Nov 4 04:25:25 PM    Downloading multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (117 kB)
+Nov 4 04:25:25 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.4/117.4 kB 25.1 MB/s eta 0:00:00
+Nov 4 04:25:25 PM  Collecting networkx==3.1
+Nov 4 04:25:25 PM    Downloading networkx-3.1-py3-none-any.whl (2.1 MB)
+Nov 4 04:25:25 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 95.4 MB/s eta 0:00:00
+Nov 4 04:25:26 PM  Collecting numpy==1.24.3
+Nov 4 04:25:26 PM    Downloading numpy-1.24.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+Nov 4 04:25:26 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 87.5 MB/s eta 0:00:00
+Nov 4 04:25:26 PM  Collecting oauthlib==3.2.2
+Nov 4 04:25:26 PM    Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Nov 4 04:25:26 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.7/151.7 kB 31.9 MB/s eta 0:00:00
+Nov 4 04:25:26 PM  Collecting opencv-python==4.8.0.76
+Nov 4 04:25:26 PM    Downloading opencv_python-4.8.0.76-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (61.7 MB)
+Nov 4 04:25:27 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.7/61.7 MB 32.5 MB/s eta 0:00:00
+Nov 4 04:25:27 PM  Collecting opt-einsum==3.3.0
+Nov 4 04:25:27 PM    Downloading opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+Nov 4 04:25:27 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 14.9 MB/s eta 0:00:00
+Nov 4 04:25:27 PM  Collecting packaging==23.1
+Nov 4 04:25:27 PM    Downloading packaging-23.1-py3-none-any.whl (48 kB)
+Nov 4 04:25:27 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 kB 10.4 MB/s eta 0:00:00
+Nov 4 04:25:27 PM  Collecting pandas==2.0.3
+Nov 4 04:25:27 PM    Downloading pandas-2.0.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.2 MB)
+Nov 4 04:25:27 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 83.3 MB/s eta 0:00:00
+Nov 4 04:25:27 PM  Collecting Pillow==9.5.0
+Nov 4 04:25:27 PM    Downloading Pillow-9.5.0-cp311-cp311-manylinux_2_28_x86_64.whl (3.4 MB)
+Nov 4 04:25:27 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 92.0 MB/s eta 0:00:00
+Nov 4 04:25:28 PM  Collecting protobuf==4.24.0
+Nov 4 04:25:28 PM    Downloading protobuf-4.24.0-cp37-abi3-manylinux2014_x86_64.whl (311 kB)
+Nov 4 04:25:28 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 311.6/311.6 kB 51.1 MB/s eta 0:00:00
+Nov 4 04:25:28 PM  Collecting pyarrow==12.0.1
+Nov 4 04:25:28 PM    Downloading pyarrow-12.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.9 MB)
+Nov 4 04:25:28 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.9/38.9 MB 51.1 MB/s eta 0:00:00
+Nov 4 04:25:28 PM  Collecting pyasn1==0.5.0
+Nov 4 04:25:28 PM    Downloading pyasn1-0.5.0-py2.py3-none-any.whl (83 kB)
+Nov 4 04:25:28 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.9/83.9 kB 20.4 MB/s eta 0:00:00
+Nov 4 04:25:28 PM  Collecting pyasn1-modules==0.3.0
+Nov 4 04:25:28 PM    Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+Nov 4 04:25:28 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.3/181.3 kB 36.5 MB/s eta 0:00:00
+Nov 4 04:25:28 PM  Collecting pycparser==2.21
+Nov 4 04:25:28 PM    Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Nov 4 04:25:28 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 kB 26.8 MB/s eta 0:00:00
+Nov 4 04:25:28 PM  Collecting pydantic==2.1.1
+Nov 4 04:25:28 PM    Downloading pydantic-2.1.1-py3-none-any.whl (370 kB)
+Nov 4 04:25:28 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 370.9/370.9 kB 54.4 MB/s eta 0:00:00
+Nov 4 04:25:29 PM  Collecting pydantic_core==2.4.0
+Nov 4 04:25:29 PM    Downloading pydantic_core-2.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.9 MB)
+Nov 4 04:25:29 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 94.8 MB/s eta 0:00:00
+Nov 4 04:25:29 PM  Collecting pydeck==0.8.0
+Nov 4 04:25:29 PM    Downloading pydeck-0.8.0-py2.py3-none-any.whl (4.7 MB)
+Nov 4 04:25:29 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 107.7 MB/s eta 0:00:00
+Nov 4 04:25:29 PM  Collecting pyee==11.0.1
+Nov 4 04:25:29 PM    Downloading pyee-11.0.1-py3-none-any.whl (15 kB)
+Nov 4 04:25:29 PM  Collecting Pygments==2.16.1
+Nov 4 04:25:29 PM    Downloading Pygments-2.16.1-py3-none-any.whl (1.2 MB)
+Nov 4 04:25:29 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 86.1 MB/s eta 0:00:00
+Nov 4 04:25:29 PM  Collecting pylibsrtp==0.8.0
+Nov 4 04:25:30 PM    Downloading pylibsrtp-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (74 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.8/74.8 kB 16.0 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting Pympler==1.0.1
+Nov 4 04:25:30 PM    Downloading Pympler-1.0.1-py3-none-any.whl (164 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 164.8/164.8 kB 31.6 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting pyOpenSSL==23.2.0
+Nov 4 04:25:30 PM    Downloading pyOpenSSL-23.2.0-py3-none-any.whl (59 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 13.8 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting pyparsing==3.1.1
+Nov 4 04:25:30 PM    Downloading pyparsing-3.1.1-py3-none-any.whl (103 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.1/103.1 kB 21.4 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting python-dateutil==2.8.2
+Nov 4 04:25:30 PM    Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 46.0 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting Python-IO==0.3
+Nov 4 04:25:30 PM    Downloading Python_IO-0.3.tar.gz (1.7 kB)
+Nov 4 04:25:30 PM    Preparing metadata (setup.py): started
+Nov 4 04:25:30 PM    Preparing metadata (setup.py): finished with status 'done'
+Nov 4 04:25:30 PM  Collecting python-multipart==0.0.6
+Nov 4 04:25:30 PM    Downloading python_multipart-0.0.6-py3-none-any.whl (45 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.7/45.7 kB 9.7 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting pytorch-lightning==2.0.2
+Nov 4 04:25:30 PM    Downloading pytorch_lightning-2.0.2-py3-none-any.whl (719 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 719.0/719.0 kB 72.7 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting pytz==2023.3
+Nov 4 04:25:30 PM    Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.3/502.3 kB 62.7 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting pytz-deprecation-shim==0.1.0.post0
+Nov 4 04:25:30 PM    Downloading pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl (15 kB)
+Nov 4 04:25:30 PM  Collecting PyYAML==6.0.1
+Nov 4 04:25:30 PM    Downloading PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (757 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 757.7/757.7 kB 70.6 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting referencing==0.30.2
+Nov 4 04:25:30 PM    Downloading referencing-0.30.2-py3-none-any.whl (25 kB)
+Nov 4 04:25:30 PM  Collecting requests==2.31.0
+Nov 4 04:25:30 PM    Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+Nov 4 04:25:30 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 14.3 MB/s eta 0:00:00
+Nov 4 04:25:30 PM  Collecting requests-oauthlib==1.3.1
+Nov 4 04:25:30 PM    Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Nov 4 04:25:31 PM  Collecting rich==13.5.2
+Nov 4 04:25:31 PM    Downloading rich-13.5.2-py3-none-any.whl (239 kB)
+Nov 4 04:25:31 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.7/239.7 kB 41.1 MB/s eta 0:00:00
+Nov 4 04:25:31 PM  Collecting rpds-py==0.9.2
+Nov 4 04:25:31 PM    Downloading rpds_py-0.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+Nov 4 04:25:31 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 81.6 MB/s eta 0:00:00
+Nov 4 04:25:31 PM  Collecting rsa==4.9
+Nov 4 04:25:31 PM    Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Nov 4 04:25:31 PM  Collecting scikit-learn==1.3.0
+Nov 4 04:25:31 PM    Downloading scikit_learn-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.9 MB)
+Nov 4 04:25:31 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 108.2 MB/s eta 0:00:00
+Nov 4 04:25:31 PM  Collecting scipy==1.11.2
+Nov 4 04:25:31 PM    Downloading scipy-1.11.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.3 MB)
+Nov 4 04:25:32 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.3/36.3 MB 46.4 MB/s eta 0:00:00
+Nov 4 04:25:32 PM  Collecting six==1.16.0
+Nov 4 04:25:32 PM    Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Nov 4 04:25:32 PM  Collecting smmap==5.0.0
+Nov 4 04:25:32 PM    Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
+Nov 4 04:25:32 PM  Collecting sniffio==1.3.0
+Nov 4 04:25:32 PM    Downloading sniffio-1.3.0-py3-none-any.whl (10 kB)
+Nov 4 04:25:32 PM  Collecting starlette==0.27.0
+Nov 4 04:25:32 PM    Downloading starlette-0.27.0-py3-none-any.whl (66 kB)
+Nov 4 04:25:32 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.0/67.0 kB 14.9 MB/s eta 0:00:00
+Nov 4 04:25:32 PM  Collecting streamlit==1.26.0
+Nov 4 04:25:32 PM    Downloading streamlit-1.26.0-py2.py3-none-any.whl (8.1 MB)
+Nov 4 04:25:32 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.1/8.1 MB 103.4 MB/s eta 0:00:00
+Nov 4 04:25:32 PM  Collecting streamlit-webrtc==0.47.1
+Nov 4 04:25:32 PM    Downloading streamlit_webrtc-0.47.1-py3-none-any.whl (874 kB)
+Nov 4 04:25:32 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 874.7/874.7 kB 38.6 MB/s eta 0:00:00
+Nov 4 04:25:32 PM  Collecting sympy==1.12
+Nov 4 04:25:32 PM    Downloading sympy-1.12-py3-none-any.whl (5.7 MB)
+Nov 4 04:25:32 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.7/5.7 MB 79.7 MB/s eta 0:00:00
+Nov 4 04:25:32 PM  Collecting tenacity==8.2.3
+Nov 4 04:25:32 PM    Downloading tenacity-8.2.3-py3-none-any.whl (24 kB)
+Nov 4 04:25:32 PM  Collecting termcolor==2.3.0
+Nov 4 04:25:32 PM    Downloading termcolor-2.3.0-py3-none-any.whl (6.9 kB)
+Nov 4 04:25:33 PM  Collecting threadpoolctl==3.2.0
+Nov 4 04:25:33 PM    Downloading threadpoolctl-3.2.0-py3-none-any.whl (15 kB)
+Nov 4 04:25:33 PM  Collecting toml==0.10.2
+Nov 4 04:25:33 PM    Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Nov 4 04:25:33 PM  Collecting toolz==0.12.0
+Nov 4 04:25:33 PM    Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+Nov 4 04:25:33 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.8/55.8 kB 11.8 MB/s eta 0:00:00
+Nov 4 04:25:33 PM  Collecting torch==2.0.1
+Nov 4 04:25:33 PM    Downloading torch-2.0.1-cp311-cp311-manylinux1_x86_64.whl (619.9 MB)
+Nov 4 04:25:51 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 619.9/619.9 MB 734.6 kB/s eta 0:00:00
+Nov 4 04:25:52 PM  Collecting torchaudio==2.0.2
+Nov 4 04:25:52 PM    Downloading torchaudio-2.0.2-cp311-cp311-manylinux1_x86_64.whl (4.4 MB)
+Nov 4 04:25:52 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 14.7 MB/s eta 0:00:00
+Nov 4 04:25:52 PM  Collecting torchmetrics==0.11.4
+Nov 4 04:25:52 PM    Downloading torchmetrics-0.11.4-py3-none-any.whl (519 kB)
+Nov 4 04:25:52 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 519.2/519.2 kB 3.1 MB/s eta 0:00:00
+Nov 4 04:25:53 PM  Collecting torchvision==0.15.2
+Nov 4 04:25:53 PM    Downloading torchvision-0.15.2-cp311-cp311-manylinux1_x86_64.whl (6.0 MB)
+Nov 4 04:25:53 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.0/6.0 MB 24.7 MB/s eta 0:00:00
+Nov 4 04:25:53 PM  Collecting tornado==6.3.3
+Nov 4 04:25:53 PM    Downloading tornado-6.3.3-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (427 kB)
+Nov 4 04:25:53 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 427.7/427.7 kB 53.2 MB/s eta 0:00:00
+Nov 4 04:25:53 PM  Collecting tqdm==4.66.1
+Nov 4 04:25:53 PM    Downloading tqdm-4.66.1-py3-none-any.whl (78 kB)
+Nov 4 04:25:53 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.3/78.3 kB 18.9 MB/s eta 0:00:00
+Nov 4 04:25:53 PM  Collecting typing_extensions==4.8.0
+Nov 4 04:25:53 PM    Downloading typing_extensions-4.8.0-py3-none-any.whl (31 kB)
+Nov 4 04:25:53 PM  Collecting tzdata==2023.3
+Nov 4 04:25:53 PM    Downloading tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+Nov 4 04:25:53 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.8/341.8 kB 51.2 MB/s eta 0:00:00
+Nov 4 04:25:53 PM  Collecting tzlocal==4.3.1
+Nov 4 04:25:53 PM    Downloading tzlocal-4.3.1-py3-none-any.whl (20 kB)
+Nov 4 04:25:53 PM  Collecting uritemplate==4.1.1
+Nov 4 04:25:53 PM    Downloading uritemplate-4.1.1-py2.py3-none-any.whl (10 kB)
+Nov 4 04:25:53 PM  Collecting urllib3==1.26.16
+Nov 4 04:25:53 PM    Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
+Nov 4 04:25:53 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.1/143.1 kB 28.5 MB/s eta 0:00:00
+Nov 4 04:25:53 PM  Collecting uvicorn==0.23.2
+Nov 4 04:25:53 PM    Downloading uvicorn-0.23.2-py3-none-any.whl (59 kB)
+Nov 4 04:25:53 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 kB 13.8 MB/s eta 0:00:00
+Nov 4 04:25:53 PM  Collecting validators==0.21.2
+Nov 4 04:25:53 PM    Downloading validators-0.21.2-py3-none-any.whl (25 kB)
+Nov 4 04:25:54 PM  Collecting watchdog==3.0.0
+Nov 4 04:25:54 PM    Downloading watchdog-3.0.0-py3-none-manylinux2014_x86_64.whl (82 kB)
+Nov 4 04:25:54 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.1/82.1 kB 18.4 MB/s eta 0:00:00
+Nov 4 04:25:54 PM  Collecting Werkzeug==2.3.7
+Nov 4 04:25:54 PM    Downloading werkzeug-2.3.7-py3-none-any.whl (242 kB)
+Nov 4 04:25:54 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.2/242.2 kB 39.8 MB/s eta 0:00:00
+Nov 4 04:25:54 PM  Collecting wrapt==1.15.0
+Nov 4 04:25:54 PM    Downloading wrapt-1.15.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (78 kB)
+Nov 4 04:25:54 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.9/78.9 kB 18.7 MB/s eta 0:00:00
+Nov 4 04:25:54 PM  Collecting yarl==1.9.2
+Nov 4 04:25:54 PM    Downloading yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (282 kB)
+Nov 4 04:25:54 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 282.8/282.8 kB 45.8 MB/s eta 0:00:00
+Nov 4 04:25:54 PM  Collecting zipp==3.16.2
+Nov 4 04:25:54 PM    Downloading zipp-3.16.2-py3-none-any.whl (7.2 kB)
+Nov 4 04:25:54 PM  Collecting wheel<1.0,>=0.23.0
+Nov 4 04:25:54 PM    Downloading wheel-0.41.3-py3-none-any.whl (65 kB)
+Nov 4 04:25:54 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.8/65.8 kB 15.9 MB/s eta 0:00:00
+Nov 4 04:25:55 PM  Collecting fsspec[http]>2021.06.0
+Nov 4 04:25:55 PM    Downloading fsspec-2023.10.0-py3-none-any.whl (166 kB)
+Nov 4 04:25:55 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 16.0 MB/s eta 0:00:00
+Nov 4 04:25:56 PM  Collecting nvidia-cuda-nvrtc-cu11==11.7.99
+Nov 4 04:25:56 PM    Downloading nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+Nov 4 04:25:56 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.0/21.0 MB 72.0 MB/s eta 0:00:00
+Nov 4 04:25:56 PM  Collecting nvidia-cuda-runtime-cu11==11.7.99
+Nov 4 04:25:56 PM    Downloading nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+Nov 4 04:25:56 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 849.3/849.3 kB 73.3 MB/s eta 0:00:00
+Nov 4 04:25:56 PM  Collecting nvidia-cuda-cupti-cu11==11.7.101
+Nov 4 04:25:56 PM    Downloading nvidia_cuda_cupti_cu11-11.7.101-py3-none-manylinux1_x86_64.whl (11.8 MB)
+Nov 4 04:25:56 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.8/11.8 MB 84.9 MB/s eta 0:00:00
+Nov 4 04:25:56 PM  Collecting nvidia-cudnn-cu11==8.5.0.96
+Nov 4 04:25:56 PM    Downloading nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+Nov 4 04:26:07 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 557.1/557.1 MB 1.3 MB/s eta 0:00:00
+Nov 4 04:26:07 PM  Collecting nvidia-cublas-cu11==11.10.3.66
+Nov 4 04:26:07 PM    Downloading nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+Nov 4 04:26:15 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.1/317.1 MB 2.0 MB/s eta 0:00:00
+Nov 4 04:26:15 PM  Collecting nvidia-cufft-cu11==10.9.0.58
+Nov 4 04:26:15 PM    Downloading nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl (168.4 MB)
+Nov 4 04:26:17 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 168.4/168.4 MB 12.8 MB/s eta 0:00:00
+Nov 4 04:26:17 PM  Collecting nvidia-curand-cu11==10.2.10.91
+Nov 4 04:26:17 PM    Downloading nvidia_curand_cu11-10.2.10.91-py3-none-manylinux1_x86_64.whl (54.6 MB)
+Nov 4 04:26:17 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.6/54.6 MB 36.6 MB/s eta 0:00:00
+Nov 4 04:26:17 PM  Collecting nvidia-cusolver-cu11==11.4.0.1
+Nov 4 04:26:17 PM    Downloading nvidia_cusolver_cu11-11.4.0.1-2-py3-none-manylinux1_x86_64.whl (102.6 MB)
+Nov 4 04:26:20 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.6/102.6 MB 4.3 MB/s eta 0:00:00
+Nov 4 04:26:21 PM  Collecting nvidia-cusparse-cu11==11.7.4.91
+Nov 4 04:26:21 PM    Downloading nvidia_cusparse_cu11-11.7.4.91-py3-none-manylinux1_x86_64.whl (173.2 MB)
+Nov 4 04:26:23 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 173.2/173.2 MB 11.9 MB/s eta 0:00:00
+Nov 4 04:26:23 PM  Collecting nvidia-nccl-cu11==2.14.3
+Nov 4 04:26:23 PM    Downloading nvidia_nccl_cu11-2.14.3-py3-none-manylinux1_x86_64.whl (177.1 MB)
+Nov 4 04:26:24 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 177.1/177.1 MB 12.0 MB/s eta 0:00:00
+Nov 4 04:26:25 PM  Collecting nvidia-nvtx-cu11==11.7.91
+Nov 4 04:26:25 PM    Downloading nvidia_nvtx_cu11-11.7.91-py3-none-manylinux1_x86_64.whl (98 kB)
+Nov 4 04:26:25 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.6/98.6 kB 20.0 MB/s eta 0:00:00
+Nov 4 04:26:25 PM  Collecting triton==2.0.0
+Nov 4 04:26:25 PM    Downloading triton-2.0.0-1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (63.3 MB)
+Nov 4 04:26:25 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.3/63.3 MB 32.0 MB/s eta 0:00:00
+Nov 4 04:26:26 PM  Requirement already satisfied: setuptools in ./.venv/lib/python3.11/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==2.0.1->-r requirements.txt (line 110)) (65.5.0)
+Nov 4 04:26:26 PM  Collecting cmake
+Nov 4 04:26:26 PM    Downloading cmake-3.27.7-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (26.0 MB)
+Nov 4 04:26:26 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 26.0/26.0 MB 71.0 MB/s eta 0:00:00
+Nov 4 04:26:26 PM  Collecting lit
+Nov 4 04:26:26 PM    Downloading lit-17.0.4.tar.gz (153 kB)
+Nov 4 04:26:26 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.1/153.1 kB 33.8 MB/s eta 0:00:00
+Nov 4 04:26:26 PM    Installing build dependencies: started
+Nov 4 04:26:28 PM    Installing build dependencies: finished with status 'done'
+Nov 4 04:26:28 PM    Getting requirements to build wheel: started
+Nov 4 04:26:28 PM    Getting requirements to build wheel: finished with status 'done'
+Nov 4 04:26:28 PM    Installing backend dependencies: started
+Nov 4 04:26:29 PM    Installing backend dependencies: finished with status 'done'
+Nov 4 04:26:29 PM    Preparing metadata (pyproject.toml): started
+Nov 4 04:26:29 PM    Preparing metadata (pyproject.toml): finished with status 'done'
+Nov 4 04:26:29 PM  Collecting fsspec[http]>2021.06.0
+Nov 4 04:26:29 PM    Downloading fsspec-2023.9.2-py3-none-any.whl (173 kB)
+Nov 4 04:26:29 PM       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 173.4/173.4 kB 13.3 MB/s eta 0:00:00
+Nov 4 04:26:29 PM  Building wheels for collected packages: lit
+Nov 4 04:26:29 PM    Building wheel for lit (pyproject.toml): started
+Nov 4 04:26:30 PM    Building wheel for lit (pyproject.toml): finished with status 'done'
+Nov 4 04:26:30 PM    Created wheel for lit: filename=lit-17.0.4-py3-none-any.whl size=93257 sha256=8fdb400c6c174112f3eca08d4a2d353c97362935763c7262f1a5ee15d273a877
+Nov 4 04:26:30 PM    Stored in directory: /opt/render/.cache/wheels/56/53/49/98c96ef8edb769f3e4a8c71d6202ebff7d1e8d730476e148a5
+Nov 4 04:26:30 PM  Successfully built lit
+Nov 4 04:26:31 PM  Installing collected packages: pytz, mpmath, lit, libclang, ifaddr, flatbuffers, cmake, av, zipp, wrapt, wheel, watchdog, validators, urllib3, uritemplate, tzdata, typing_extensions, tqdm, tornado, toolz, toml, threadpoolctl, termcolor, tenacity, sympy, sniffio, smmap, six, rpds-py, PyYAML, python-multipart, pyparsing, Pympler, Pygments, pycparser, pyasn1, protobuf, Pillow, packaging, oauthlib, nvidia-nccl-cu11, nvidia-cufft-cu11, nvidia-cuda-nvrtc-cu11, numpy, networkx, multidict, mdurl, MarkupSafe, Markdown, keras, joblib, idna, h11, grpcio, google-crc32c, gast, fsspec, frozenlist, filelock, dnspython, darkdetect, colorama, click, charset-normalizer, certifi, cachetools, blinker, beartype, attrs, async-timeout, annotated-types, absl-py, yarl, Werkzeug, uvicorn, scipy, rsa, requests, referencing, pytz-deprecation-shim, python-dateutil, pyee, pydantic_core, pyasn1-modules, pyarrow, opt-einsum, opencv-python, nvidia-nvtx-cu11, nvidia-cusparse-cu11, nvidia-curand-cu11, nvidia-cuda-runtime-cu11, nvidia-cuda-cupti-cu11, nvidia-cublas-cu11, markdown-it-py, lightning-utilities, Jinja2, importlib-metadata, httplib2, h5py, googleapis-common-protos, google-pasta, gitdb, customtkinter, cffi, astunparse, anyio, aiosignal, aioice, tzlocal, starlette, scikit-learn, rich, requests-oauthlib, Python-IO, pylibsrtp, pydeck, pydantic, pandas, nvidia-cusolver-cu11, nvidia-cudnn-cu11, jsonschema-specifications, google-auth, GitPython, cryptography, aiohttp, pyOpenSSL, jsonschema, google-auth-oauthlib, google-auth-httplib2, google-api-core, fastapi, google-api-python-client, altair, aiortc, streamlit, streamlit-webrtc, triton, torch, torchmetrics, torchvision, torchaudio, pytorch-lightning
+Nov 4 04:27:08 PM    DEPRECATION: Python-IO is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+Nov 4 04:27:08 PM    Running setup.py install for Python-IO: started
+Nov 4 04:27:08 PM    Running setup.py install for Python-IO: finished with status 'done'
+Nov 4 04:27:55 PM  Successfully installed GitPython-3.1.32 Jinja2-3.1.2 Markdown-3.4.4 MarkupSafe-2.1.3 Pillow-9.5.0 PyYAML-6.0.1 Pygments-2.16.1 Pympler-1.0.1 Python-IO-0.3 Werkzeug-2.3.7 absl-py-1.4.0 aiohttp-3.8.5 aioice-0.9.0 aiortc-1.5.0 aiosignal-1.3.1 altair-5.0.1 annotated-types-0.5.0 anyio-3.7.1 astunparse-1.6.3 async-timeout-4.0.3 attrs-23.1.0 av-10.0.0 beartype-0.16.3 blinker-1.6.2 cachetools-5.3.1 certifi-2023.7.22 cffi-1.16.0 charset-normalizer-3.2.0 click-8.1.6 cmake-3.27.7 colorama-0.4.6 cryptography-41.0.4 customtkinter-5.2.1 darkdetect-0.8.0 dnspython-2.4.2 fastapi-0.101.1 filelock-3.12.4 flatbuffers-23.5.26 frozenlist-1.4.0 fsspec-2023.9.1 gast-0.4.0 gitdb-4.0.10 google-api-core-2.12.0 google-api-python-client-2.105.0 google-auth-2.22.0 google-auth-httplib2-0.1.1 google-auth-oauthlib-1.1.0 google-crc32c-1.5.0 google-pasta-0.2.0 googleapis-common-protos-1.61.0 grpcio-1.58.0 h11-0.14.0 h5py-3.9.0 httplib2-0.22.0 idna-3.4 ifaddr-0.2.0 importlib-metadata-6.8.0 joblib-1.3.2 jsonschema-4.19.0 jsonschema-specifications-2023.7.1 keras-2.13.1 libclang-16.0.6 lightning-utilities-0.9.0 lit-17.0.4 markdown-it-py-3.0.0 mdurl-0.1.2 mpmath-1.3.0 multidict-6.0.4 networkx-3.1 numpy-1.24.3 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-cupti-cu11-11.7.101 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 nvidia-cufft-cu11-10.9.0.58 nvidia-curand-cu11-10.2.10.91 nvidia-cusolver-cu11-11.4.0.1 nvidia-cusparse-cu11-11.7.4.91 nvidia-nccl-cu11-2.14.3 nvidia-nvtx-cu11-11.7.91 oauthlib-3.2.2 opencv-python-4.8.0.76 opt-einsum-3.3.0 packaging-23.1 pandas-2.0.3 protobuf-4.24.0 pyOpenSSL-23.2.0 pyarrow-12.0.1 pyasn1-0.5.0 pyasn1-modules-0.3.0 pycparser-2.21 pydantic-2.1.1 pydantic_core-2.4.0 pydeck-0.8.0 pyee-11.0.1 pylibsrtp-0.8.0 pyparsing-3.1.1 python-dateutil-2.8.2 python-multipart-0.0.6 pytorch-lightning-2.0.2 pytz-2023.3 pytz-deprecation-shim-0.1.0.post0 referencing-0.30.2 requests-2.31.0 requests-oauthlib-1.3.1 rich-13.5.2 rpds-py-0.9.2 rsa-4.9 scikit-learn-1.3.0 scipy-1.11.2 six-1.16.0 smmap-5.0.0 sniffio-1.3.0 starlette-0.27.0 streamlit-1.26.0 streamlit-webrtc-0.47.1 sympy-1.12 tenacity-8.2.3 termcolor-2.3.0 threadpoolctl-3.2.0 toml-0.10.2 toolz-0.12.0 torch-2.0.1 torchaudio-2.0.2 torchmetrics-0.11.4 torchvision-0.15.2 tornado-6.3.3 tqdm-4.66.1 triton-2.0.0 typing_extensions-4.8.0 tzdata-2023.3 tzlocal-4.3.1 uritemplate-4.1.1 urllib3-1.26.16 uvicorn-0.23.2 validators-0.21.2 watchdog-3.0.0 wheel-0.41.3 wrapt-1.15.0 yarl-1.9.2 zipp-3.16.2
+Nov 4 04:27:55 PM  
+Nov 4 04:27:55 PM  [notice] A new release of pip available: 22.3.1 -> 23.3.1
+Nov 4 04:27:55 PM  [notice] To update, run: pip install --upgrade pip
+Nov 4 04:28:12 PM  ==> Uploading build...
+Nov 4 04:29:35 PM  ==> Deploying...
+Nov 4 04:29:33 PM  ==> Build uploaded in 25s
+Nov 4 04:29:34 PM  ==> Build successful 🎉
+Nov 4 04:32:32 PM  ==> Using Node version 14.17.0 (default)
+Nov 4 04:32:32 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Nov 4 04:32:39 PM  ==> Running 'uvicorn main:app --host 0.0.0.0 --port 8000 '
+Nov 4 04:33:03 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+Nov 4 04:33:03 PM    warnings.warn(
+Nov 4 04:33:03 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet152_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet152_Weights.DEFAULT` to get the most up-to-date weights.
+Nov 4 04:33:03 PM    warnings.warn(msg)
+Nov 4 04:33:09 PM  Downloading: "https://download.pytorch.org/models/resnet152-394f9c45.pth" to /opt/render/.cache/torch/hub/checkpoints/resnet152-394f9c45.pth
+Nov 4 04:33:16 PM  
+  0%|          | 0.00/230M [00:00<?, ?B/s]
+  2%|▏         | 5.01M/230M [00:00<00:07, 32.2MB/s]
+  4%|▎         | 8.09M/230M [00:00<00:07, 31.8MB/s]
+  5%|▌         | 12.5M/230M [00:00<00:06, 37.5MB/s]
+  7%|▋         | 16.1M/230M [00:00<00:06, 37.2MB/s]
+  9%|▊         | 19.9M/230M [00:00<00:05, 38.0MB/s]
+ 10%|█         | 24.2M/230M [00:00<00:05, 40.1MB/s]
+ 12%|█▏        | 28.0M/230M [00:00<00:05, 39.9MB/s]
+ 14%|█▍        | 31.9M/230M [00:00<00:05, 40.0MB/s]
+ 15%|█▌        | 35.7M/230M [00:01<00:06, 31.2MB/s]
+ 17%|█▋        | 39.1M/230M [00:01<00:06, 32.4MB/s]
+ 18%|█▊        | 42.6M/230M [00:01<00:05, 33.6MB/s]
+ 20%|██        | 46.4M/230M [00:01<00:05, 35.2MB/s]
+ 22%|██▏       | 50.0M/230M [00:01<00:05, 36.0MB/s]
+ 24%|██▎       | 54.2M/230M [00:01<00:04, 38.5MB/s]
+ 25%|██▌       | 58.6M/230M [00:01<00:04, 40.5MB/s]
+ 27%|██▋       | 62.5M/230M [00:01<00:04, 40.3MB/s]
+ 29%|██▉       | 66.4M/230M [00:01<00:04, 40.0MB/s]
+ 30%|███       | 70.2M/230M [00:02<00:05, 31.2MB/s]
+ 32%|███▏      | 73.9M/230M [00:02<00:04, 33.0MB/s]
+ 34%|███▍      | 78.8M/230M [00:02<00:04, 37.7MB/s]
+ 36%|███▌      | 83.2M/230M [00:02<00:03, 40.0MB/s]
+ 38%|███▊      | 87.2M/230M [00:02<00:03, 40.4MB/s]
+ 40%|███▉      | 91.2M/230M [00:02<00:03, 40.8MB/s]
+ 42%|████▏     | 96.9M/230M [00:02<00:03, 46.2MB/s]
+ 44%|████▍     | 101M/230M [00:02<00:04, 30.1MB/s] 
+ 46%|████▌     | 105M/230M [00:03<00:04, 31.4MB/s]
+ 47%|████▋     | 109M/230M [00:03<00:03, 33.7MB/s]
+ 49%|████▉     | 113M/230M [00:03<00:03, 34.8MB/s]
+ 51%|█████     | 116M/230M [00:03<00:04, 28.5MB/s]
+ 52%|█████▏    | 120M/230M [00:03<00:03, 31.2MB/s]
+ 54%|█████▍    | 124M/230M [00:03<00:03, 33.0MB/s]
+ 55%|█████▌    | 127M/230M [00:03<00:04, 26.1MB/s]
+ 58%|█████▊    | 134M/230M [00:03<00:02, 34.9MB/s]
+ 60%|█████▉    | 138M/230M [00:04<00:02, 37.0MB/s]
+ 61%|██████▏   | 142M/230M [00:04<00:02, 31.2MB/s]
+ 64%|██████▎   | 146M/230M [00:04<00:02, 35.5MB/s]
+ 65%|██████▌   | 150M/230M [00:04<00:02, 36.4MB/s]
+ 67%|██████▋   | 154M/230M [00:04<00:02, 37.3MB/s]
+ 69%|██████▊   | 158M/230M [00:04<00:02, 37.8MB/s]
+ 70%|███████   | 162M/230M [00:04<00:02, 29.6MB/s]
+ 72%|███████▏  | 166M/230M [00:05<00:02, 33.4MB/s]
+ 74%|███████▎  | 170M/230M [00:05<00:01, 34.1MB/s]
+ 75%|███████▌  | 173M/230M [00:05<00:01, 34.8MB/s]
+ 77%|███████▋  | 177M/230M [00:05<00:01, 30.6MB/s]
+ 79%|███████▊  | 181M/230M [00:05<00:01, 32.2MB/s]
+ 81%|████████  | 186M/230M [00:05<00:01, 36.7MB/s]
+ 82%|████████▏ | 190M/230M [00:05<00:01, 38.7MB/s]
+ 85%|████████▍ | 195M/230M [00:05<00:00, 42.0MB/s]
+ 86%|████████▋ | 199M/230M [00:05<00:00, 42.2MB/s]
+ 88%|████████▊ | 203M/230M [00:05<00:00, 42.2MB/s]
+ 90%|████████▉ | 207M/230M [00:06<00:00, 31.1MB/s]
+ 92%|█████████▏| 212M/230M [00:06<00:00, 31.5MB/s]
+ 94%|█████████▍| 216M/230M [00:06<00:00, 33.8MB/s]
+ 96%|█████████▌| 221M/230M [00:06<00:00, 36.6MB/s]
+ 97%|█████████▋| 224M/230M [00:06<00:00, 36.8MB/s]
+ 99%|█████████▉| 228M/230M [00:06<00:00, 36.9MB/s]
+100%|██████████| 230M/230M [00:06<00:00, 35.2MB/s]
+Nov 4 04:33:34 PM  ==> Using Node version 14.17.0 (default)
+Nov 4 04:33:34 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Nov 4 04:33:40 PM  ==> Running 'uvicorn main:app --host 0.0.0.0 --port 8000 '
+Nov 4 04:34:01 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+Nov 4 04:34:01 PM    warnings.warn(
+Nov 4 04:34:01 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet152_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet152_Weights.DEFAULT` to get the most up-to-date weights.
+Nov 4 04:34:01 PM    warnings.warn(msg)
+Nov 4 04:34:38 PM  ==> Using Node version 14.17.0 (default)
+Nov 4 04:34:38 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Nov 4 04:34:44 PM  ==> Running 'uvicorn main:app --host 0.0.0.0 --port 8000 '
+Nov 4 04:35:05 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+Nov 4 04:35:05 PM    warnings.warn(
+Nov 4 04:35:05 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet152_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet152_Weights.DEFAULT` to get the most up-to-date weights.
+Nov 4 04:35:05 PM    warnings.warn(msg)
+Nov 4 04:35:52 PM  ==> Using Node version 14.17.0 (default)
+Nov 4 04:35:52 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Nov 4 04:35:59 PM  ==> Running 'uvicorn main:app --host 0.0.0.0 --port 8000 '
+Nov 4 04:36:21 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+Nov 4 04:36:21 PM    warnings.warn(
+Nov 4 04:36:21 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet152_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet152_Weights.DEFAULT` to get the most up-to-date weights.
+Nov 4 04:36:21 PM    warnings.warn(msg)
+Nov 4 04:37:20 PM  ==> Using Node version 14.17.0 (default)
+Nov 4 04:37:20 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Nov 4 04:37:27 PM  ==> Running 'uvicorn main:app --host 0.0.0.0 --port 8000 '
+Nov 4 04:37:49 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+Nov 4 04:37:49 PM    warnings.warn(
+Nov 4 04:37:49 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet152_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet152_Weights.DEFAULT` to get the most up-to-date weights.
+Nov 4 04:37:49 PM    warnings.warn(msg)
+Nov 4 04:39:28 PM  ==> Using Node version 14.17.0 (default)
+Nov 4 04:39:28 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Nov 4 04:39:34 PM  ==> Running 'uvicorn main:app --host 0.0.0.0 --port 8000 '
+Nov 4 04:39:55 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+Nov 4 04:39:55 PM    warnings.warn(
+Nov 4 04:39:55 PM  /opt/render/project/src/.venv/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet152_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet152_Weights.DEFAULT` to get the most up-to-date weights.
+Nov 4 04:39:55 PM    warnings.warn(msg)
